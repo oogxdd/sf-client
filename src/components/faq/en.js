@@ -64,7 +64,7 @@ export default ({ closeModal, lang, setLang }) => (
       <p className="text-sm text-gray-500">
         {`Project source code is publicly available at the `}
         <a
-          href="https://github.com/oogxdd/soundfuck"
+          href="https://github.com/soundfuck"
           className="text-violet-600 cursor-pointer hover:text-violet-800"
           target="_blank"
         >

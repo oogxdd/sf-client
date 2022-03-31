@@ -7,20 +7,13 @@ import gql from 'graphql-tag'
 import Field from 'components/ui/field'
 import Modal from 'components/ui/modal'
 
-export default function AuthModal() {
-  const { showDonateModal, setShowDonateModal } = useContext(AppContext)
-  const [btn, setBtn] = useState(undefined)
+export default function DonateModal() {
+  const { showDonateModal, setShowDonateModal, selectedTrack } =
+    useContext(AppContext)
   const [sum, setSum] = useState(undefined)
 
-  useEffect(() => {
-    var button = window.$ipsp.get('button')
-    button.setMerchantId(1396424)
-    button.setAmount('', 'USD')
-    button.setHost('pay.fondy.eu')
-    setBtn(button)
-  }, [])
-
   const disabled = !sum
+  console.log(sum)
 
   return (
     <Modal
@@ -60,7 +53,7 @@ export default function AuthModal() {
             button.addField({
               label: 'Track name',
               name: 'description',
-              value: `max - some song.mp3`,
+              value: `${selectedTrack.author.nickname} - ${selectedTrack.title}`,
               readonly: true,
             })
 

@@ -1,1300 +1,1300 @@
-const countries = {
-  Global: {
+export const countries = {
+  glob: {
     code: 'glob',
     name: 'Global',
     emoji: '🌏',
   },
-  UA: {
+  ua: {
     code: 'ua',
     name: 'Ukraine',
     emoji: '🇺🇦',
   },
-  RU: {
+  ru: {
     code: 'ru',
     name: 'Russia',
     emoji: '🇷🇺',
   },
-  US: {
+  us: {
     code: 'us',
     name: 'United States',
     emoji: '🇺🇸',
   },
-  AC: {
+  ac: {
     code: 'ac',
     name: 'Ascension Island',
     emoji: '🇦🇨',
   },
-  AD: {
+  ad: {
     code: 'ad',
     name: 'Andorra',
     emoji: '🇦🇩',
   },
-  AE: {
+  ae: {
     code: 'ae',
     name: 'United Arab Emirates',
     emoji: '🇦🇪',
   },
-  AF: {
+  af: {
     code: 'af',
     name: 'Afghanistan',
     emoji: '🇦🇫',
   },
-  AG: {
+  ag: {
     code: 'ag',
     name: 'Antigua & Barbuda',
     emoji: '🇦🇬',
   },
-  AI: {
+  ai: {
     code: 'ai',
     name: 'Anguilla',
     emoji: '🇦🇮',
   },
-  AL: {
+  al: {
     code: 'al',
     name: 'Albania',
     emoji: '🇦🇱',
   },
-  AM: {
+  am: {
     code: 'am',
     name: 'Armenia',
     emoji: '🇦🇲',
   },
-  AO: {
+  ao: {
     code: 'ao',
     name: 'Angola',
     emoji: '🇦🇴',
   },
-  AQ: {
+  aq: {
     code: 'aq',
     name: 'Antarctica',
     emoji: '🇦🇶',
   },
-  AR: {
+  ar: {
     code: 'ar',
     name: 'Argentina',
     emoji: '🇦🇷',
   },
-  AS: {
+  as: {
     code: 'as',
     name: 'American Samoa',
     emoji: '🇦🇸',
   },
-  AT: {
+  at: {
     code: 'at',
     name: 'Austria',
     emoji: '🇦🇹',
   },
-  AU: {
+  au: {
     code: 'au',
     name: 'Australia',
     emoji: '🇦🇺',
   },
-  AW: {
+  aw: {
     code: 'aw',
     name: 'Aruba',
     emoji: '🇦🇼',
   },
-  AX: {
+  ax: {
     code: 'ax',
     name: 'Åland Islands',
     emoji: '🇦🇽',
   },
-  AZ: {
+  az: {
     code: 'az',
     name: 'Azerbaijan',
     emoji: '🇦🇿',
   },
-  BA: {
+  ba: {
     code: 'ba',
     name: 'Bosnia & Herzegovina',
     emoji: '🇧🇦',
   },
-  BB: {
+  bb: {
     code: 'bb',
     name: 'Barbados',
     emoji: '🇧🇧',
   },
-  BD: {
+  bd: {
     code: 'bd',
     name: 'Bangladesh',
     emoji: '🇧🇩',
   },
-  BE: {
+  be: {
     code: 'be',
     name: 'Belgium',
     emoji: '🇧🇪',
   },
-  BF: {
+  bf: {
     code: 'bf',
     name: 'Burkina Faso',
     emoji: '🇧🇫',
   },
-  BG: {
+  bg: {
     code: 'bg',
     name: 'Bulgaria',
     emoji: '🇧🇬',
   },
-  BH: {
+  bh: {
     code: 'bh',
     name: 'Bahrain',
     emoji: '🇧🇭',
   },
-  BI: {
+  bi: {
     code: 'bi',
     name: 'Burundi',
     emoji: '🇧🇮',
   },
-  BJ: {
+  bj: {
     code: 'bj',
     name: 'Benin',
     emoji: '🇧🇯',
   },
-  BL: {
+  bl: {
     code: 'bl',
     name: 'St. Barthélemy',
     emoji: '🇧🇱',
   },
-  BM: {
+  bm: {
     code: 'bm',
     name: 'Bermuda',
     emoji: '🇧🇲',
   },
-  BN: {
+  bn: {
     code: 'bn',
     name: 'Brunei',
     emoji: '🇧🇳',
   },
-  BO: {
+  bo: {
     code: 'bo',
     name: 'Bolivia',
     emoji: '🇧🇴',
   },
-  BQ: {
+  bq: {
     code: 'bq',
     name: 'Caribbean Netherlands',
     emoji: '🇧🇶',
   },
-  BR: {
+  br: {
     code: 'br',
     name: 'Brazil',
     emoji: '🇧🇷',
   },
-  BS: {
+  bs: {
     code: 'bs',
     name: 'Bahamas',
     emoji: '🇧🇸',
   },
-  BT: {
+  bt: {
     code: 'bt',
     name: 'Bhutan',
     emoji: '🇧🇹',
   },
-  BV: {
+  bv: {
     code: 'bv',
     name: 'Bouvet Island',
     emoji: '🇧🇻',
   },
-  BW: {
+  bw: {
     code: 'bw',
     name: 'Botswana',
     emoji: '🇧🇼',
   },
-  BY: {
+  by: {
     code: 'by',
     name: 'Belarus',
     emoji: '🇧🇾',
   },
-  BZ: {
+  bz: {
     code: 'bz',
     name: 'Belize',
     emoji: '🇧🇿',
   },
-  CA: {
+  ca: {
     code: 'ca',
     name: 'Canada',
     emoji: '🇨🇦',
   },
-  CC: {
+  cc: {
     code: 'cc',
     name: 'Cocos (Keeling) Islands',
     emoji: '🇨🇨',
   },
-  CD: {
+  cd: {
     code: 'cd',
     name: 'Congo - Kinshasa',
     emoji: '🇨🇩',
   },
-  CF: {
+  cf: {
     code: 'cf',
     name: 'Central African Republic',
     emoji: '🇨🇫',
   },
-  CG: {
+  cg: {
     code: 'cg',
     name: 'Congo - Brazzaville',
     emoji: '🇨🇬',
   },
-  CH: {
+  ch: {
     code: 'ch',
     name: 'Switzerland',
     emoji: '🇨🇭',
   },
-  CI: {
+  ci: {
     code: 'ci',
     name: 'Côte d’Ivoire',
     emoji: '🇨🇮',
   },
-  CK: {
+  ck: {
     code: 'ck',
     name: 'Cook Islands',
     emoji: '🇨🇰',
   },
-  CL: {
+  cl: {
     code: 'cl',
     name: 'Chile',
     emoji: '🇨🇱',
   },
-  CM: {
+  cm: {
     code: 'cm',
     name: 'Cameroon',
     emoji: '🇨🇲',
   },
-  CN: {
+  cn: {
     code: 'cn',
     name: 'China',
     emoji: '🇨🇳',
   },
-  CO: {
+  co: {
     code: 'co',
     name: 'Colombia',
     emoji: '🇨🇴',
   },
-  CP: {
+  cp: {
     code: 'cp',
     name: 'Clipperton Island',
     emoji: '🇨🇵',
   },
-  CR: {
+  cr: {
     code: 'cr',
     name: 'Costa Rica',
     emoji: '🇨🇷',
   },
-  CU: {
+  cu: {
     code: 'cu',
     name: 'Cuba',
     emoji: '🇨🇺',
   },
-  CV: {
+  cv: {
     code: 'cv',
     name: 'Cape Verde',
     emoji: '🇨🇻',
   },
-  CW: {
+  cw: {
     code: 'cw',
     name: 'Curaçao',
     emoji: '🇨🇼',
   },
-  CX: {
+  cx: {
     code: 'cx',
     name: 'Christmas Island',
     emoji: '🇨🇽',
   },
-  CY: {
+  cy: {
     code: 'cy',
     name: 'Cyprus',
     emoji: '🇨🇾',
   },
-  CZ: {
+  cz: {
     code: 'cz',
     name: 'Czechia',
     emoji: '🇨🇿',
   },
-  DE: {
+  de: {
     code: 'de',
     name: 'Germany',
     emoji: '🇩🇪',
   },
-  DG: {
+  dg: {
     code: 'dg',
     name: 'Diego Garcia',
     emoji: '🇩🇬',
   },
-  DJ: {
+  dj: {
     code: 'dj',
     name: 'Djibouti',
     emoji: '🇩🇯',
   },
-  DK: {
+  dk: {
     code: 'dk',
     name: 'Denmark',
     emoji: '🇩🇰',
   },
-  DM: {
+  dm: {
     code: 'dm',
     name: 'Dominica',
     emoji: '🇩🇲',
   },
-  DO: {
+  do: {
     code: 'do',
     name: 'Dominican Republic',
     emoji: '🇩🇴',
   },
-  DZ: {
+  dz: {
     code: 'dz',
     name: 'Algeria',
     emoji: '🇩🇿',
   },
-  EA: {
+  ea: {
     code: 'ea',
     name: 'Ceuta & Melilla',
     emoji: '🇪🇦',
   },
-  EC: {
+  ec: {
     code: 'ec',
     name: 'Ecuador',
     emoji: '🇪🇨',
   },
-  EE: {
+  ee: {
     code: 'ee',
     name: 'Estonia',
     emoji: '🇪🇪',
   },
-  EG: {
+  eg: {
     code: 'eg',
     name: 'Egypt',
     emoji: '🇪🇬',
   },
-  EH: {
+  eh: {
     code: 'eh',
     name: 'Western Sahara',
     emoji: '🇪🇭',
   },
-  ER: {
+  er: {
     code: 'er',
     name: 'Eritrea',
     emoji: '🇪🇷',
   },
-  ES: {
+  es: {
     code: 'es',
     name: 'Spain',
     emoji: '🇪🇸',
   },
-  ET: {
+  et: {
     code: 'et',
     name: 'Ethiopia',
     emoji: '🇪🇹',
   },
-  EU: {
+  eu: {
     code: 'eu',
     name: 'European Union',
     emoji: '🇪🇺',
   },
-  FI: {
+  fi: {
     code: 'fi',
     name: 'Finland',
     emoji: '🇫🇮',
   },
-  FJ: {
+  fj: {
     code: 'fj',
     name: 'Fiji',
     emoji: '🇫🇯',
   },
-  FK: {
+  fk: {
     code: 'fk',
     name: 'Falkland Islands',
     emoji: '🇫🇰',
   },
-  FM: {
+  fm: {
     code: 'fm',
     name: 'Micronesia',
     emoji: '🇫🇲',
   },
-  FO: {
+  fo: {
     code: 'fo',
     name: 'Faroe Islands',
     emoji: '🇫🇴',
   },
-  FR: {
+  fr: {
     code: 'fr',
     name: 'France',
     emoji: '🇫🇷',
   },
-  GA: {
+  ga: {
     code: 'ga',
     name: 'Gabon',
     emoji: '🇬🇦',
   },
-  GB: {
+  gb: {
     code: 'gb',
     name: 'United Kingdom',
     emoji: '🇬🇧',
   },
-  GD: {
+  gd: {
     code: 'gd',
     name: 'Grenada',
     emoji: '🇬🇩',
   },
-  GE: {
+  ge: {
     code: 'ge',
     name: 'Georgia',
     emoji: '🇬🇪',
   },
-  GF: {
+  gf: {
     code: 'gf',
     name: 'French Guiana',
     emoji: '🇬🇫',
   },
-  GG: {
+  gg: {
     code: 'gg',
     name: 'Guernsey',
     emoji: '🇬🇬',
   },
-  GH: {
+  gh: {
     code: 'gh',
     name: 'Ghana',
     emoji: '🇬🇭',
   },
-  GI: {
+  gi: {
     code: 'gi',
     name: 'Gibraltar',
     emoji: '🇬🇮',
   },
-  GL: {
+  gl: {
     code: 'gl',
     name: 'Greenland',
     emoji: '🇬🇱',
   },
-  GM: {
+  gm: {
     code: 'gm',
     name: 'Gambia',
     emoji: '🇬🇲',
   },
-  GN: {
+  gn: {
     code: 'gn',
     name: 'Guinea',
     emoji: '🇬🇳',
   },
-  GP: {
+  gp: {
     code: 'gp',
     name: 'Guadeloupe',
     emoji: '🇬🇵',
   },
-  GQ: {
+  gq: {
     code: 'gq',
     name: 'Equatorial Guinea',
     emoji: '🇬🇶',
   },
-  GR: {
+  gr: {
     code: 'gr',
     name: 'Greece',
     emoji: '🇬🇷',
   },
-  GS: {
+  gs: {
     code: 'gs',
     name: 'South Georgia & South Sandwich Islands',
     emoji: '🇬🇸',
   },
-  GT: {
+  gt: {
     code: 'gt',
     name: 'Guatemala',
     emoji: '🇬🇹',
   },
-  GU: {
+  gu: {
     code: 'gu',
     name: 'Guam',
     emoji: '🇬🇺',
   },
-  GW: {
+  gw: {
     code: 'gw',
     name: 'Guinea-Bissau',
     emoji: '🇬🇼',
   },
-  GY: {
+  gy: {
     code: 'gy',
     name: 'Guyana',
     emoji: '🇬🇾',
   },
-  HK: {
+  hk: {
     code: 'hk',
     name: 'Hong Kong SAR China',
     emoji: '🇭🇰',
   },
-  HM: {
+  hm: {
     code: 'hm',
     name: 'Heard & McDonald Islands',
     emoji: '🇭🇲',
   },
-  HN: {
+  hn: {
     code: 'hn',
     name: 'Honduras',
     emoji: '🇭🇳',
   },
-  HR: {
+  hr: {
     code: 'hr',
     name: 'Croatia',
     emoji: '🇭🇷',
   },
-  HT: {
+  ht: {
     code: 'ht',
     name: 'Haiti',
     emoji: '🇭🇹',
   },
-  HU: {
+  hu: {
     code: 'hu',
     name: 'Hungary',
     emoji: '🇭🇺',
   },
-  IC: {
+  ic: {
     code: 'ic',
     name: 'Canary Islands',
     emoji: '🇮🇨',
   },
-  ID: {
+  id: {
     code: 'id',
     name: 'Indonesia',
     emoji: '🇮🇩',
   },
-  IE: {
+  ie: {
     code: 'ie',
     name: 'Ireland',
     emoji: '🇮🇪',
   },
-  IL: {
+  il: {
     code: 'il',
     name: 'Israel',
     emoji: '🇮🇱',
   },
-  IM: {
+  im: {
     code: 'im',
     name: 'Isle of Man',
     emoji: '🇮🇲',
   },
-  IN: {
+  in: {
     code: 'in',
     name: 'India',
     emoji: '🇮🇳',
   },
-  IO: {
+  io: {
     code: 'io',
     name: 'British Indian Ocean Territory',
     emoji: '🇮🇴',
   },
-  IQ: {
+  iq: {
     code: 'iq',
     name: 'Iraq',
     emoji: '🇮🇶',
   },
-  IR: {
+  ir: {
     code: 'ir',
     name: 'Iran',
     emoji: '🇮🇷',
   },
-  IS: {
+  is: {
     code: 'is',
     name: 'Iceland',
     emoji: '🇮🇸',
   },
-  IT: {
+  it: {
     code: 'it',
     name: 'Italy',
     emoji: '🇮🇹',
   },
-  JE: {
+  je: {
     code: 'je',
     name: 'Jersey',
     emoji: '🇯🇪',
   },
-  JM: {
+  jm: {
     code: 'jm',
     name: 'Jamaica',
     emoji: '🇯🇲',
   },
-  JO: {
+  jo: {
     code: 'jo',
     name: 'Jordan',
     emoji: '🇯🇴',
   },
-  JP: {
+  jp: {
     code: 'jp',
     name: 'Japan',
     emoji: '🇯🇵',
   },
-  KE: {
+  ke: {
     code: 'ke',
     name: 'Kenya',
     emoji: '🇰🇪',
   },
-  KG: {
+  kg: {
     code: 'kg',
     name: 'Kyrgyzstan',
     emoji: '🇰🇬',
   },
-  KH: {
+  kh: {
     code: 'kh',
     name: 'Cambodia',
     emoji: '🇰🇭',
   },
-  KI: {
+  ki: {
     code: 'ki',
     name: 'Kiribati',
     emoji: '🇰🇮',
   },
-  KM: {
+  km: {
     code: 'km',
     name: 'Comoros',
     emoji: '🇰🇲',
   },
-  KN: {
+  kn: {
     code: 'kn',
     name: 'St. Kitts & Nevis',
     emoji: '🇰🇳',
   },
-  KP: {
+  kp: {
     code: 'kp',
     name: 'North Korea',
     emoji: '🇰🇵',
   },
-  KR: {
+  kr: {
     code: 'kr',
     name: 'South Korea',
     emoji: '🇰🇷',
   },
-  KW: {
+  kw: {
     code: 'kw',
     name: 'Kuwait',
     emoji: '🇰🇼',
   },
-  KY: {
+  ky: {
     code: 'ky',
     name: 'Cayman Islands',
     emoji: '🇰🇾',
   },
-  KZ: {
+  kz: {
     code: 'kz',
     name: 'Kazakhstan',
     emoji: '🇰🇿',
   },
-  LA: {
+  la: {
     code: 'la',
     name: 'Laos',
     emoji: '🇱🇦',
   },
-  LB: {
+  lb: {
     code: 'lb',
     name: 'Lebanon',
     emoji: '🇱🇧',
   },
-  LC: {
+  lc: {
     code: 'lc',
     name: 'St. Lucia',
     emoji: '🇱🇨',
   },
-  LI: {
+  li: {
     code: 'li',
     name: 'Liechtenstein',
     emoji: '🇱🇮',
   },
-  LK: {
+  lk: {
     code: 'lk',
     name: 'Sri Lanka',
     emoji: '🇱🇰',
   },
-  LR: {
+  lr: {
     code: 'lr',
     name: 'Liberia',
     emoji: '🇱🇷',
   },
-  LS: {
+  ls: {
     code: 'ls',
     name: 'Lesotho',
     emoji: '🇱🇸',
   },
-  LT: {
+  lt: {
     code: 'lt',
     name: 'Lithuania',
     emoji: '🇱🇹',
   },
-  LU: {
+  lu: {
     code: 'lu',
     name: 'Luxembourg',
     emoji: '🇱🇺',
   },
-  LV: {
+  lv: {
     code: 'lv',
     name: 'Latvia',
     emoji: '🇱🇻',
   },
-  LY: {
+  ly: {
     code: 'ly',
     name: 'Libya',
     emoji: '🇱🇾',
   },
-  MA: {
+  ma: {
     code: 'ma',
     name: 'Morocco',
     emoji: '🇲🇦',
   },
-  MC: {
+  mc: {
     code: 'mc',
     name: 'Monaco',
     emoji: '🇲🇨',
   },
-  MD: {
+  md: {
     code: 'md',
     name: 'Moldova',
     emoji: '🇲🇩',
   },
-  ME: {
+  me: {
     code: 'me',
     name: 'Montenegro',
     emoji: '🇲🇪',
   },
-  MF: {
+  mf: {
     code: 'mf',
     name: 'St. Martin',
     emoji: '🇲🇫',
   },
-  MG: {
+  mg: {
     code: 'mg',
     name: 'Madagascar',
     emoji: '🇲🇬',
   },
-  MH: {
+  mh: {
     code: 'mh',
     name: 'Marshall Islands',
     emoji: '🇲🇭',
   },
-  MK: {
+  mk: {
     code: 'mk',
     name: 'Macedonia',
     emoji: '🇲🇰',
   },
-  ML: {
+  ml: {
     code: 'ml',
     name: 'Mali',
     emoji: '🇲🇱',
   },
-  MM: {
+  mm: {
     code: 'mm',
     name: 'Myanmar (Burma)',
     emoji: '🇲🇲',
   },
-  MN: {
+  mn: {
     code: 'mn',
     name: 'Mongolia',
     emoji: '🇲🇳',
   },
-  MO: {
+  mo: {
     code: 'mo',
     name: 'Macau SAR China',
     emoji: '🇲🇴',
   },
-  MP: {
+  mp: {
     code: 'mp',
     name: 'Northern Mariana Islands',
     emoji: '🇲🇵',
   },
-  MQ: {
+  mq: {
     code: 'mq',
     name: 'Martinique',
     emoji: '🇲🇶',
   },
-  MR: {
+  mr: {
     code: 'mr',
     name: 'Mauritania',
     emoji: '🇲🇷',
   },
-  MS: {
+  ms: {
     code: 'ms',
     name: 'Montserrat',
     emoji: '🇲🇸',
   },
-  MT: {
+  mt: {
     code: 'mt',
     name: 'Malta',
     emoji: '🇲🇹',
   },
-  MU: {
+  mu: {
     code: 'mu',
     name: 'Mauritius',
     emoji: '🇲🇺',
   },
-  MV: {
+  mv: {
     code: 'mv',
     name: 'Maldives',
     emoji: '🇲🇻',
   },
-  MW: {
+  mw: {
     code: 'mw',
     name: 'Malawi',
     emoji: '🇲🇼',
   },
-  MX: {
+  mx: {
     code: 'mx',
     name: 'Mexico',
     emoji: '🇲🇽',
   },
-  MY: {
+  my: {
     code: 'my',
     name: 'Malaysia',
     emoji: '🇲🇾',
   },
-  MZ: {
+  mz: {
     code: 'mz',
     name: 'Mozambique',
     emoji: '🇲🇿',
   },
-  NA: {
+  na: {
     code: 'na',
     name: 'Namibia',
     emoji: '🇳🇦',
   },
-  NC: {
+  nc: {
     code: 'nc',
     name: 'New Caledonia',
     emoji: '🇳🇨',
   },
-  NE: {
+  ne: {
     code: 'ne',
     name: 'Niger',
     emoji: '🇳🇪',
   },
-  NF: {
+  nf: {
     code: 'nf',
     name: 'Norfolk Island',
     emoji: '🇳🇫',
   },
-  NG: {
+  ng: {
     code: 'ng',
     name: 'Nigeria',
     emoji: '🇳🇬',
   },
-  NI: {
+  ni: {
     code: 'ni',
     name: 'Nicaragua',
     emoji: '🇳🇮',
   },
-  NL: {
+  nl: {
     code: 'nl',
     name: 'Netherlands',
     emoji: '🇳🇱',
   },
-  NO: {
+  no: {
     code: 'no',
     name: 'Norway',
     emoji: '🇳🇴',
   },
-  NP: {
+  np: {
     code: 'np',
     name: 'Nepal',
     emoji: '🇳🇵',
   },
-  NR: {
+  nr: {
     code: 'nr',
     name: 'Nauru',
     emoji: '🇳🇷',
   },
-  NU: {
+  nu: {
     code: 'nu',
     name: 'Niue',
     emoji: '🇳🇺',
   },
-  NZ: {
+  nz: {
     code: 'nz',
     name: 'New Zealand',
     emoji: '🇳🇿',
   },
-  OM: {
+  om: {
     code: 'om',
     name: 'Oman',
     emoji: '🇴🇲',
   },
-  PA: {
+  pa: {
     code: 'pa',
     name: 'Panama',
     emoji: '🇵🇦',
   },
-  PE: {
+  pe: {
     code: 'pe',
     name: 'Peru',
     emoji: '🇵🇪',
   },
-  PF: {
+  pf: {
     code: 'pf',
     name: 'French Polynesia',
     emoji: '🇵🇫',
   },
-  PG: {
+  pg: {
     code: 'pg',
     name: 'Papua New Guinea',
     emoji: '🇵🇬',
   },
-  PH: {
+  ph: {
     code: 'ph',
     name: 'Philippines',
     emoji: '🇵🇭',
   },
-  PK: {
+  pk: {
     code: 'pk',
     name: 'Pakistan',
     emoji: '🇵🇰',
   },
-  PL: {
+  pl: {
     code: 'pl',
     name: 'Poland',
     emoji: '🇵🇱',
   },
-  PM: {
+  pm: {
     code: 'pm',
     name: 'St. Pierre & Miquelon',
     emoji: '🇵🇲',
   },
-  PN: {
+  pn: {
     code: 'pn',
     name: 'Pitcairn Islands',
     emoji: '🇵🇳',
   },
-  PR: {
+  pr: {
     code: 'pr',
     name: 'Puerto Rico',
     emoji: '🇵🇷',
   },
-  PS: {
+  ps: {
     code: 'ps',
     name: 'Palestinian Territories',
     emoji: '🇵🇸',
   },
-  PT: {
+  pt: {
     code: 'pt',
     name: 'Portugal',
     emoji: '🇵🇹',
   },
-  PW: {
+  pw: {
     code: 'pw',
     name: 'Palau',
     emoji: '🇵🇼',
   },
-  PY: {
+  py: {
     code: 'py',
     name: 'Paraguay',
     emoji: '🇵🇾',
   },
-  QA: {
+  qa: {
     code: 'qa',
     name: 'Qatar',
     emoji: '🇶🇦',
   },
-  RE: {
+  re: {
     code: 're',
     name: 'Réunion',
     emoji: '🇷🇪',
   },
-  RO: {
+  ro: {
     code: 'ro',
     name: 'Romania',
     emoji: '🇷🇴',
   },
-  RS: {
+  rs: {
     code: 'rs',
     name: 'Serbia',
     emoji: '🇷🇸',
   },
-  RW: {
+  rw: {
     code: 'rw',
     name: 'Rwanda',
     emoji: '🇷🇼',
   },
-  SA: {
+  sa: {
     code: 'sa',
     name: 'Saudi Arabia',
     emoji: '🇸🇦',
   },
-  SB: {
+  sb: {
     code: 'sb',
     name: 'Solomon Islands',
     emoji: '🇸🇧',
   },
-  SC: {
+  sc: {
     code: 'sc',
     name: 'Seychelles',
     emoji: '🇸🇨',
   },
-  SD: {
+  sd: {
     code: 'sd',
     name: 'Sudan',
     emoji: '🇸🇩',
   },
-  SE: {
+  se: {
     code: 'se',
     name: 'Sweden',
     emoji: '🇸🇪',
   },
-  SG: {
+  sg: {
     code: 'sg',
     name: 'Singapore',
     emoji: '🇸🇬',
   },
-  SH: {
+  sh: {
     code: 'sh',
     name: 'St. Helena',
     emoji: '🇸🇭',
   },
-  SI: {
+  si: {
     code: 'si',
     name: 'Slovenia',
     emoji: '🇸🇮',
   },
-  SJ: {
+  sj: {
     code: 'sj',
     name: 'Svalbard & Jan Mayen',
     emoji: '🇸🇯',
   },
-  SK: {
+  sk: {
     code: 'sk',
     name: 'Slovakia',
     emoji: '🇸🇰',
   },
-  SL: {
+  sl: {
     code: 'sl',
     name: 'Sierra Leone',
     emoji: '🇸🇱',
   },
-  SM: {
+  sm: {
     code: 'sm',
     name: 'San Marino',
     emoji: '🇸🇲',
   },
-  SN: {
+  sn: {
     code: 'sn',
     name: 'Senegal',
     emoji: '🇸🇳',
   },
-  SO: {
+  so: {
     code: 'so',
     name: 'Somalia',
     emoji: '🇸🇴',
   },
-  SR: {
+  sr: {
     code: 'sr',
     name: 'Suriname',
     emoji: '🇸🇷',
   },
-  SS: {
+  ss: {
     code: 'ss',
     name: 'South Sudan',
     emoji: '🇸🇸',
   },
-  ST: {
+  st: {
     code: 'st',
     name: 'São Tomé & Príncipe',
     emoji: '🇸🇹',
   },
-  SV: {
+  sv: {
     code: 'sv',
     name: 'El Salvador',
     emoji: '🇸🇻',
   },
-  SX: {
+  sx: {
     code: 'sx',
     name: 'Sint Maarten',
     emoji: '🇸🇽',
   },
-  SY: {
+  sy: {
     code: 'sy',
     name: 'Syria',
     emoji: '🇸🇾',
   },
-  SZ: {
+  sz: {
     code: 'sz',
     name: 'Swaziland',
     emoji: '🇸🇿',
   },
-  TA: {
+  ta: {
     code: 'ta',
     name: 'Tristan da Cunha',
     emoji: '🇹🇦',
   },
-  TC: {
+  tc: {
     code: 'tc',
     name: 'Turks & Caicos Islands',
     emoji: '🇹🇨',
   },
-  TD: {
+  td: {
     code: 'td',
     name: 'Chad',
     emoji: '🇹🇩',
   },
-  TF: {
+  tf: {
     code: 'tf',
     name: 'French Southern Territories',
     emoji: '🇹🇫',
   },
-  TG: {
+  tg: {
     code: 'tg',
     name: 'Togo',
     emoji: '🇹🇬',
   },
-  TH: {
+  th: {
     code: 'th',
     name: 'Thailand',
     emoji: '🇹🇭',
   },
-  TJ: {
+  tj: {
     code: 'tj',
     name: 'Tajikistan',
     emoji: '🇹🇯',
   },
-  TK: {
+  tk: {
     code: 'tk',
     name: 'Tokelau',
     emoji: '🇹🇰',
   },
-  TL: {
+  tl: {
     code: 'tl',
     name: 'Timor-Leste',
     emoji: '🇹🇱',
   },
-  TM: {
+  tm: {
     code: 'tm',
     name: 'Turkmenistan',
     emoji: '🇹🇲',
   },
-  TN: {
+  tn: {
     code: 'tn',
     name: 'Tunisia',
     emoji: '🇹🇳',
   },
-  TO: {
+  to: {
     code: 'to',
     name: 'Tonga',
     emoji: '🇹🇴',
   },
-  TR: {
+  tr: {
     code: 'tr',
     name: 'Turkey',
     emoji: '🇹🇷',
   },
-  TT: {
+  tt: {
     code: 'tt',
     name: 'Trinidad & Tobago',
     emoji: '🇹🇹',
   },
-  TV: {
+  tv: {
     code: 'tv',
     name: 'Tuvalu',
     emoji: '🇹🇻',
   },
-  TW: {
+  tw: {
     code: 'tw',
     name: 'Taiwan',
     emoji: '🇹🇼',
   },
-  TZ: {
+  tz: {
     code: 'tz',
     name: 'Tanzania',
     emoji: '🇹🇿',
   },
-  UG: {
+  ug: {
     code: 'ug',
     name: 'Uganda',
     emoji: '🇺🇬',
   },
-  UM: {
+  um: {
     code: 'um',
     name: 'U.S. Outlying Islands',
     emoji: '🇺🇲',
   },
-  UN: {
+  un: {
     code: 'un',
     name: 'United Nations',
     emoji: '🇺🇳',
   },
-  UY: {
+  uy: {
     code: 'uy',
     name: 'Uruguay',
     emoji: '🇺🇾',
   },
-  UZ: {
+  uz: {
     code: 'uz',
     name: 'Uzbekistan',
     emoji: '🇺🇿',
   },
-  VA: {
+  va: {
     code: 'va',
     name: 'Vatican City',
     emoji: '🇻🇦',
   },
-  VC: {
+  vc: {
     code: 'vc',
     name: 'St. Vincent & Grenadines',
     emoji: '🇻🇨',
   },
-  VE: {
+  ve: {
     code: 've',
     name: 'Venezuela',
     emoji: '🇻🇪',
   },
-  VG: {
+  vg: {
     code: 'vg',
     name: 'British Virgin Islands',
     emoji: '🇻🇬',
   },
-  VI: {
+  vi: {
     code: 'vi',
     name: 'U.S. Virgin Islands',
     emoji: '🇻🇮',
   },
-  VN: {
+  vn: {
     code: 'vn',
     name: 'Vietnam',
     emoji: '🇻🇳',
   },
-  VU: {
+  vu: {
     code: 'vu',
     name: 'Vanuatu',
     emoji: '🇻🇺',
   },
-  WF: {
+  wf: {
     code: 'wf',
     name: 'Wallis & Futuna',
     emoji: '🇼🇫',
   },
-  WS: {
+  ws: {
     code: 'ws',
     name: 'Samoa',
     emoji: '🇼🇸',
   },
-  XK: {
+  xk: {
     code: 'xk',
     name: 'Kosovo',
     emoji: '🇽🇰',
   },
-  YE: {
+  ye: {
     code: 'ye',
     name: 'Yemen',
     emoji: '🇾🇪',
   },
-  YT: {
+  yt: {
     code: 'yt',
     name: 'Mayotte',
     emoji: '🇾🇹',
   },
-  ZA: {
+  za: {
     code: 'za',
     name: 'South Africa',
     emoji: '🇿🇦',
   },
-  ZM: {
+  zm: {
     code: 'zm',
     name: 'Zambia',
     emoji: '🇿🇲',
   },
-  ZW: {
+  zw: {
     code: 'zw',
     name: 'Zimbabwe',
     emoji: '🇿🇼',
   },
-  Pirate: {
+  pir: {
     code: 'pir',
     name: 'Pirate',
     emoji: '🏴‍☠️',

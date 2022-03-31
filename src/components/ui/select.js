@@ -2,7 +2,16 @@ import React, { Component } from 'react'
 import ReactSelect from 'react-select'
 import { Controller } from 'react-hook-form'
 
-const Select = ({ label, name = '', options = [], hint, control }) => (
+const Select = ({
+  label,
+  name = '',
+  options = [],
+  hint,
+  control,
+  country,
+  setCountry,
+  ...rest
+}) => (
   <div className="mb-4">
     <label htmlFor="email" className="block text-sm font-medium text-gray-700">
       {label}
@@ -12,7 +21,6 @@ const Select = ({ label, name = '', options = [], hint, control }) => (
         control={control}
         name={name}
         render={({ field }) => {
-          console.log(field.onChange)
           return (
             <ReactSelect
               options={options}
@@ -33,6 +41,14 @@ const Select = ({ label, name = '', options = [], hint, control }) => (
                 // }),
               }}
               {...field}
+              {...rest}
+              value={field.value}
+              onChange={(value, el) => {
+                console.log('onChange')
+                console.log(value)
+                console.log(el)
+                field.onChange(value)
+              }}
             />
           )
         }}

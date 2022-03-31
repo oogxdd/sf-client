@@ -66,7 +66,7 @@ export default ({ closeModal, lang, setLang }) => (
       <p className="text-sm text-gray-500">
         {`Проект знаходиться в опенсорсі на `}
         <a
-          href="https://github.com/oogxdd/soundfuck"
+          href="https://github.com/soundfuck"
           className="text-violet-600 cursor-pointer hover:text-violet-800"
           target="_blank"
         >
@@ -113,14 +113,14 @@ export default ({ closeModal, lang, setLang }) => (
         Я дизайнер/розробник/діяч музичної індустрії та хотів би допомогти
       </h3>
       <p className="text-sm text-gray-500">
-        {`Знову ж таки, зв'яжіться зі мною по емейлу `}
+        {`Зв'яжіться зі мною по емейлу `}
         <a
           href="mailto:hi@soundfuck.com"
           className="text-violet-600 cursor-pointer hover:text-violet-800"
         >
           hi@soundfuck.com
         </a>
-        , я буду радий обговорити будь-які варіанти співпраці
+        , буду радий поспілкуватися та обговорити будь-які варіанти співпраці
       </p>
     </div>
 

@@ -1,14 +1,15 @@
 import { useState } from 'react'
 
-export default ({ onGetName, focusNext = () => {} }) => {
+export default ({ onGetName, focusNext = () => {}, onChange = () => {} }) => {
   const [image, setImage] = useState({ preview: '', data: '' })
   const [name, setName] = useState(undefined)
   const [status, setStatus] = useState('')
   const handleSubmit = async (e) => {
+    alert('ok')
     e.preventDefault()
     let formData = new FormData()
     formData.append('file', image.data)
-    const response = await fetch('http://localhost:4000/files', {
+    const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/files`, {
       method: 'POST',
       body: formData,
     })
@@ -20,14 +21,23 @@ export default ({ onGetName, focusNext = () => {} }) => {
       preview: URL.createObjectURL(e.target.files[0]),
       data: e.target.files[0],
     }
+    const image = e.target.files[0]
     setImage(img)
-    // let formData = new FormData()
-    // formData.append('file', image.data)
-    console.log(e)
-    console.log(e.target.files[0].name)
     setName(e.target.files[0].name)
     onGetName(e.target.files[0].name)
-    focusNext()
+
+    let formData = new FormData()
+    formData.append('file', image)
+    console.log(formData)
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/files`, {
+      method: 'POST',
+      body: formData,
+    })
+      .then((r) => r.json())
+      .then((json) => {
+        console.log(json.path)
+        onChange(`${process.env.REACT_APP_BACKEND_URL}/${json.path}`)
+      })
   }
 
   return (

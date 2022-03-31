@@ -7,11 +7,10 @@ const Field = ({
   type = 'text',
   leading,
   addon,
-  register = {},
+  register = () => {},
   name,
   ...rest
 }) => {
-  console.log(rest)
   return (
     <div className="mb-4">
       <label
@@ -32,8 +31,8 @@ const Field = ({
           } ${addon ? 'pr-12' : ''}`}
           placeholder={placeholder}
           type={type}
-          // value={value}
-          // onChange={onChange}
+          value={value}
+          onChange={onChange}
           {...register(name)}
           {...rest}
         />

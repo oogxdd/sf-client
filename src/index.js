@@ -15,7 +15,7 @@ const client = createClient({
   fetchOptions: () => {
     const token = window.localStorage.jwt
     return {
-      headers: { authorization: token ? `Bearer ${token}` : '' },
+      headers: { Authorization: token ? `Bearer ${token}` : '' },
     }
   },
 })
@@ -23,11 +23,11 @@ const client = createClient({
 ReactDOM.render(
   <React.StrictMode>
     <URQLProvider value={client}>
-      <AuthProvider>
-        <AppProvider>
+      <AppProvider>
+        <AuthProvider>
           <App />
-        </AppProvider>
-      </AuthProvider>
+        </AuthProvider>
+      </AppProvider>
     </URQLProvider>
   </React.StrictMode>,
   document.getElementById('root'),

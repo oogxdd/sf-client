@@ -5,8 +5,9 @@ const AppContext = createContext()
 const AppProvider = ({ children }) => {
   const [selectedTrack, setSelectedTrack] = useState(null)
 
+  const [showLoginModal, setShowLoginModal] = useState(false)
+  const [showRegisterModal, setShowRegisterModal] = useState(false)
   const [showUploadModal, setShowUploadModal] = useState(false)
-  const [showRegisterForm, setShowRegisterForm] = useState(false)
 
   const [showFAQ, setShowFAQ] = useState(false)
 
@@ -19,12 +20,14 @@ const AppProvider = ({ children }) => {
         setSelectedTrack,
 
         showUploadModal,
-        showRegisterForm,
+        showLoginModal,
+        showRegisterModal,
         showFAQ,
         showDonateModal,
 
         setShowUploadModal,
-        setShowRegisterForm,
+        setShowLoginModal,
+        setShowRegisterModal,
         setShowFAQ,
         setShowDonateModal,
       }}
