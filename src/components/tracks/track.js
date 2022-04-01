@@ -61,7 +61,7 @@ const Track = ({ track }) => {
                 backgroundColor: '#F5F5F5',
               }
             : {
-                backgroundImage: `url("/audio.png")`,
+                backgroundImage: `url("/audio-pic.png")`,
                 backgroundSize: '91%',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
