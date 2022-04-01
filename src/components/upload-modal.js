@@ -157,7 +157,7 @@ const CoverField = ({
     })
       .then((r) => r.json())
       .then((json) => {
-        onChange(`${process.env.REACT_APP_BACKEND_URL}/${json.path}`)
+        onChange(json.path)
       })
   }
 

@@ -4,17 +4,6 @@ export default ({ onGetName, focusNext = () => {}, onChange = () => {} }) => {
   const [image, setImage] = useState({ preview: '', data: '' })
   const [name, setName] = useState(undefined)
   const [status, setStatus] = useState('')
-  const handleSubmit = async (e) => {
-    alert('ok')
-    e.preventDefault()
-    let formData = new FormData()
-    formData.append('file', image.data)
-    const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/files`, {
-      method: 'POST',
-      body: formData,
-    })
-    if (response) setStatus(response.statusText)
-  }
 
   const handleFileChange = (e) => {
     const img = {
@@ -36,7 +25,7 @@ export default ({ onGetName, focusNext = () => {}, onChange = () => {} }) => {
       .then((r) => r.json())
       .then((json) => {
         console.log(json.path)
-        onChange(`${process.env.REACT_APP_BACKEND_URL}/${json.path}`)
+        onChange(json.path)
       })
   }
 
@@ -66,18 +55,6 @@ export default ({ onGetName, focusNext = () => {}, onChange = () => {} }) => {
           accept="audio/*"
         />
       </div>
-    </div>
-  )
-  return (
-    <div className="App">
-      <h1>Upload to server</h1>
-      {image.preview && <img src={image.preview} width="100" height="100" />}
-      <hr></hr>
-      <form onSubmit={handleSubmit}>
-        <input type="file" name="file" onChange={handleFileChange}></input>
-        <button type="submit">Submit</button>
-      </form>
-      {status && <h4>{status}</h4>}
     </div>
   )
 }
